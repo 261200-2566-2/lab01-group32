@@ -4,16 +4,16 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner t = new Scanner(System.in);
+        Scanner total = new Scanner(System.in);
         int number;
         ArrayList<Integer> num = new ArrayList<>();
 
         System.out.print("Enter your number: ");
-        number = t.nextInt();
+        number = total.nextInt();
 
         for(int i = 0; i < number; i++) {
             System.out.print("Your number : ");
-            int n = t.nextInt();
+            int n = total.nextInt();
             num.add(n);
         }
 
